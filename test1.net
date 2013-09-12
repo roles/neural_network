@@ -1,0 +1,15 @@
+Ninputs 2 Nhidden 1 Noutputs 1
+UnitType 1
+Connectcalls 2
+1 2    3 4
+3 3    4 4
+NTrainingPatterns 4
+0.0  0.0 	 -0.5
+0.0  1.0 	 0.5
+1.0  0.0 	 0.5
+1.0  1.0 	 -0.5 
+NTestPatterns 4
+0.0  0.0 	 -0.5
+0.0  1.0 	 0.5
+1.0  0.0 	 0.5
+1.0  1.0 	 -0.5 

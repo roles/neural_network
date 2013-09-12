@@ -1,0 +1,70 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ACTIVATION	quickprop1.c	/^float ACTIVATION(sum)$/;"	f
+ACTIVATION_PRIME	quickprop1.c	/^float ACTIVATION_PRIME(value)$/;"	f
+ASYMSIGMOID	quickprop1.c	37;"	d	file:
+BACKWARD_PASS	quickprop1.c	/^BACKWARD_PASS (goal)$/;"	f
+BUILD_DATA_STRUCTURES	quickprop1.c	/^BUILD_DATA_STRUCTURES (ninputs, nhidden, noutputs)$/;"	f
+CLEAR_SLOPES	quickprop1.c	/^CLEAR_SLOPES()$/;"	f
+CONNECT_LAYERS	quickprop1.c	/^CONNECT_LAYERS (start1, end1, start2, end2)$/;"	f
+Connections	quickprop1.c	/^int   Connections[N][N];   \/* C[i][j] lists jth unit projecting to unit i *\/$/;"	v
+DUMP_WEIGHTS	quickprop1.c	/^DUMP_WEIGHTS(fname)$/;"	f
+Decay	quickprop1.c	/^float Decay;               \/* Weight decay *\/$/;"	v
+DeltaWeights	quickprop1.c	/^float DeltaWeights[N][N];  \/* Change between previous weight and current one *\/$/;"	v
+DidGradient	quickprop1.c	/^int   DidGradient;         \/* Total # patterns that did gradient descent *\/$/;"	v
+ERRFUN	quickprop1.c	/^float ERRFUN (desired, actual)$/;"	f
+Epoch	quickprop1.c	/^int   Epoch;               \/* Current epoch number *\/$/;"	v
+Epsilon	quickprop1.c	/^float Epsilon;             \/* For grad descent if last step was (almost) 0 *\/$/;"	v
+ErrorSums	quickprop1.c	/^float ErrorSums[N];        \/* Total error activation for each unit *\/$/;"	v
+Errors	quickprop1.c	/^float Errors[N];           \/* Final error value for each unit *\/$/;"	v
+FORWARD_PASS	quickprop1.c	/^FORWARD_PASS (input)$/;"	f
+FirstHidden	quickprop1.c	/^int   FirstHidden;         \/* Index of 1st hidden unit *\/$/;"	v
+FirstOutput	quickprop1.c	/^int   FirstOutput;         \/* Index of 1st output unit *\/$/;"	v
+GET_NETWORK_CONFIGURATION	quickprop1.c	/^GET_NETWORK_CONFIGURATION(fname)$/;"	f
+GET_WEIGHTS	quickprop1.c	/^GET_WEIGHTS(fname)$/;"	f
+HyperErr	quickprop1.c	/^int   HyperErr;            \/* 1 => use atanh error function *\/$/;"	v
+INITIALIZE_GLOBALS	quickprop1.c	/^INITIALIZE_GLOBALS()$/;"	f
+INIT_WEIGHTS	quickprop1.c	/^INIT_WEIGHTS()$/;"	f
+KeepScore	quickprop1.c	/^int   KeepScore;           \/* 1 => accumulate error score for each epoch *\/$/;"	v
+MaxFactor	quickprop1.c	/^float MaxFactor;           \/* Don't jump more than this times last step *\/$/;"	v
+ModeSwitchThreshold	quickprop1.c	/^float ModeSwitchThreshold; \/* Inside thresh, do grad descent; outside, jump. *\/$/;"	v
+Momentum	quickprop1.c	/^float Momentum;            \/* Normal old momentum term *\/$/;"	v
+N	quickprop1.c	34;"	d	file:
+NTestPatterns	quickprop1.c	/^int   NTestPatterns;            \/* !! Not in Lisp version.  Needed here. *\/$/;"	v
+NTrainingPatterns	quickprop1.c	/^int   NTrainingPatterns;        \/* !! Not in Lisp version.  Needed here. *\/$/;"	v
+Nconnections	quickprop1.c	/^int   Nconnections[N];     \/* # of INCOMING connections per unit *\/$/;"	v
+Nhidden	quickprop1.c	/^int   Nhidden;             \/* Number of hidden units *\/$/;"	v
+Ninputs	quickprop1.c	/^int   Ninputs;             \/* Number of input units *\/$/;"	v
+Noutputs	quickprop1.c	/^int   Noutputs;            \/* Number of output units *\/$/;"	v
+Nunits	quickprop1.c	/^int   Nunits;              \/* Total number of units in net *\/$/;"	v
+Outputs	quickprop1.c	/^float Outputs[N];          \/* Final output value for each unit *\/$/;"	v
+PrevSlopes	quickprop1.c	/^float PrevSlopes[N][N];    \/* Similarly, for the last position visited *\/$/;"	v
+RANDOM_WEIGHT	quickprop1.c	/^float RANDOM_WEIGHT (range)$/;"	f
+Restart	quickprop1.c	/^int   Restart;             \/* 1 => restart when max epochs reached *\/$/;"	v
+SIGMOID	quickprop1.c	36;"	d	file:
+ScoreThreshold	quickprop1.c	/^float ScoreThreshold;      \/* This close to desired value => bit is correct *\/$/;"	v
+SigmoidPrimeOffset	quickprop1.c	/^float SigmoidPrimeOffset;  \/* Add to sigmoid-prime to kill flat spots *\/$/;"	v
+SingleEpoch	quickprop1.c	/^int   SingleEpoch;         \/* 1 => Pause after each training epoch *\/$/;"	v
+SinglePass	quickprop1.c	/^int   SinglePass;          \/* 1 => Pause after forward\/backward cycle *\/$/;"	v
+Slopes	quickprop1.c	/^float Slopes[N][N];        \/* Accumulated slope value for each position *\/$/;"	v
+SplitEpsilon	quickprop1.c	/^int   SplitEpsilon;        \/* 1 => divide epsilon by fan-in before use *\/$/;"	v
+Step	quickprop1.c	/^int   Step;                \/* Turned to 1 after each pause, briefly *\/$/;"	v
+TEST	quickprop1.c	/^TEST ()$/;"	f
+TRAIN	quickprop1.c	/^TRAIN ( times )$/;"	f
+TRAIN_ONE_EPOCH	quickprop1.c	/^TRAIN_ONE_EPOCH()$/;"	f
+TestInputs	quickprop1.c	/^float TestInputs[200][N];$/;"	v
+TestOutputs	quickprop1.c	/^float TestOutputs[200][N];$/;"	v
+TotalError	quickprop1.c	/^float TotalError;          \/* Total output error for one epoch *\/$/;"	v
+TotalErrorBits	quickprop1.c	/^int   TotalErrorBits;      \/* Total # bits in epoch that were wrong *\/$/;"	v
+TrainingInputs	quickprop1.c	/^float TrainingInputs[200][N];$/;"	v
+TrainingOutputs	quickprop1.c	/^float TrainingOutputs[200][N];$/;"	v
+UPDATE_WEIGHTS	quickprop1.c	/^UPDATE_WEIGHTS()$/;"	f
+Unit_type	quickprop1.c	/^int   Unit_type;           \/* Type of hidden and Output Units: 1=> SIGMOID,and$/;"	v
+WeightRange	quickprop1.c	/^float WeightRange;         \/* Random-init weights in range [-WR,+WR] *\/$/;"	v
+Weights	quickprop1.c	/^float Weights[N][N];       \/* W[i][j] holds weight of C[i][j] *\/$/;"	v
+main	quickprop1.c	/^main ()$/;"	f
+tinputs	quickprop1.c	/^float tinputs[N];           \/* Input vector to be tested. *\/$/;"	v
